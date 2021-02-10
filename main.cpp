@@ -18,7 +18,7 @@ int main()
 
         getline(cin, sample);
 
-        if (sample == "get me out of here!") {
+        if (sample == "\\q") {
             break;
         }
         l.testAll((char*)(sample.c_str()));
