@@ -16,12 +16,14 @@ int main()
 
     while (true) {
 
+        cout << "Palpeite: ";
         getline(cin, sample);
 
         if (sample == "\\q") {
             break;
         }
-        l.testAll((char*)(sample.c_str()));
+
+        l.testAll( (char*)(sample.c_str()) );
 
     }
 

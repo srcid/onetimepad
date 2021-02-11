@@ -71,6 +71,7 @@ vector<char> loader::stringTest(char* s, unsigned ptobegin) {
 void loader::testAll(char* s) {
     
     for (unsigned i = 0; i < dpxor.size(); i++) {
+        
         vector<char> res = stringTest(s, i);
 
         if ( res.size() != 0 ) {
