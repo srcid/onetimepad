@@ -16,7 +16,7 @@ int main()
 
     while (true) {
 
-        cout << "Palpeite: ";
+        cout << "Palpite: ";
         getline(cin, sample);
 
         if (sample == "\\q") {
